@@ -15,13 +15,11 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-slate-900 shadow-lg z-50">
+    <nav className="fixed top-0 w-full bg-gradient-to-r from-indigo-950 via-purple-900 to-indigo-950 backdrop-blur-md shadow-2xl z-50 border-b border-purple-700/40">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        <h1 className="text-emerald-400 font-bold text-xl">
-          Akhileswara Reddy
-        </h1>
-
-        {/* Desktop */}
+      <h1 className="text-emerald-400 font-bold text-xl tracking-wide">
+             Thirapatha Swami
+       </h1>
         <div className="hidden md:flex gap-6">
           {links.map((link) => (
             <Link

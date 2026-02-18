@@ -1,29 +1,18 @@
 import Navbar from "../pages/Navbar";
-import { FaBriefcase } from "react-icons/fa";
+
 
 export default function Experience() {
   const experiences = [
-    {
-      role: "Web Development Intern",
-      company: "Prodigy InfoTech",
-      type: "Remote",
-      duration: "Jul 2025 - Aug 2025",
-      points: [
-        "Designed and developed 4+ responsive UI components and web applications.",
-        "Created interactive Stopwatch and Tic-Tac-Toe applications using JavaScript.",
-        "Built weather application integrating third-party API for real-time data.",
-        "Developed responsive landing page following modern design principles.",
-      ],
-    },
     {
       role: "Full Stack Development Intern (MERN)",
       company: "SmartBridge",
       type: "Remote",
       duration: "May 2025 - Jun 2025",
       points: [
-        "Developed InfoEasy platform demonstrating complete MERN stack development.",
-        "Implemented JWT-based authentication and authorization mechanisms.",
-        "Created RESTful APIs with Express.js and MongoDB for data persistence.",
+        "Developed 'Shop-Smart' e-commerce web application using MERN stack.",
+        "Implemented Add to Cart and Buy Now functionality with dynamic state management.",
+        "Built secure JWT-based authentication and protected user routes.",
+        "Designed RESTful APIs with Express.js and MongoDB for product and order management.",
       ],
     },
   ];
@@ -42,13 +31,10 @@ export default function Experience() {
             </span>
           </h1>
 
-          <div className="relative border-l-2 border-emerald-400/30 space-y-16">
+          <div className="relative space-y-16">
             {experiences.map((exp, index) => (
               <div key={index} className="relative pl-12">
 
-                <div className="absolute -left-[22px] top-0 w-10 h-10 rounded-full bg-[#05070f] border-2 border-emerald-400 flex items-center justify-center text-emerald-400 shadow-lg">
-                  <FaBriefcase />
-                </div>
 
                 <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-emerald-400 hover:scale-[1.02] transition-all duration-300 backdrop-blur-md">
                   <h2 className="text-xl font-semibold text-emerald-400">
