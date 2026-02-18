@@ -1,5 +1,8 @@
 import Navbar from "../pages/Navbar";
-
+import {FaGithub
+  
+}
+from "react-icons/fa"
 
 export default function Experience() {
   const experiences = [
@@ -14,6 +17,7 @@ export default function Experience() {
         "Built secure JWT-based authentication and protected user routes.",
         "Designed RESTful APIs with Express.js and MongoDB for product and order management.",
       ],
+      github:"https://github.com/Helina-Thathapudi/Shopsmart"
     },
   ];
 
@@ -57,7 +61,17 @@ export default function Experience() {
                       </li>
                     ))}
                   </ul>
+                  <a
+                    href={exp.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-[100px] m-2 flex items-center gap-2 border border-white/20 px-4 py-2 rounded-lg text-sm hover:border-sky-400 hover:text-sky-400 transition duration-300"
+                  >
+                    <FaGithub />
+                    Code
+                  </a>
                 </div>
+                
 
               </div>
             ))}
