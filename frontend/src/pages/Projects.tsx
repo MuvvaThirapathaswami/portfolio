@@ -12,21 +12,10 @@ export default function Projects() {
         "Integrated Google Text-to-Speech for real-time document-to-audio conversion.",
         "Deployed frontend on Vercel and backend on Render for seamless accessibility.",
       ],
-      live: "https://github.com/MuvvaThirapathaswami/HearToLearn",
+      live: "https://hear-to-learn.vercel.app/",
       github: "https://github.com/MuvvaThirapathaswami/HearToLearn",
     },
-    {
-      title: "Netflix Content Analysis — Data Analytics Project",
-      duration: "2025",
-      description: [
-        "Performed data cleaning and preprocessing using Python.",
-        "Conducted exploratory data analysis on Netflix titles dataset.",
-        "Identified trends in genres, content types, and yearly release patterns.",
-        "Visualized insights to support data-driven understanding.",
-      ],
-      live: "https://github.com/MuvvaThirapathaswami/NetflixContentAnalysis",
-      github: "https://github.com/MuvvaThirapathaswami/NetflixContentAnalysis",
-    },
+    
   ];
 
   return (
